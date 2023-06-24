@@ -1,31 +1,31 @@
-# Danmaku
+# 弹幕
 
-## Introduction
+## 介绍
 
-Danmaku (弾幕, "barrage", lit. "bullet curtain"), also known as Bullet Hell, is a sub-genre of shoot 'em up video games featuring complex patterns of dozens to hundreds of enemy bullets. The Touhou Project games are a well-known example of this genre.
+弹幕游戏（STG）, 又被称为子弹地狱, 是射击游戏的一个子类型，通常有数十到数百个敌弹同屏。东方project是此类游戏中较为著名的例子。
 
-In the context of Arcadian Dream, danmaku is a system that allows you to create bullet patterns and use them in combat. Naturally, there are also enemies that use danmaku against you. In a sense, danmaku is this mod's equivalent of magic.
+在幻想之梦模组中，弹幕是一个允许您创建子弹图案并在战斗中使用它们的系统。当然，也有敌人使用弹幕来对付你。从某种意义上说，弹幕相当于这个模组的魔法。
 
-## Getting Started
+## 新手上路
 
-To begin creating your own danmaku, you will need a few materials. The main source of these materials are the various enemies in the mod.
+要创造您自己的弹幕, 你需要一些材料. 这些材料的主要来源是模组中的各种敌人。
 
-!!! note
+!!! 提示
 
-    Which material does what can be modified using tags.
+    材料的作用可通过标签进行修改
 
 
 Icon | Material | Description
 -----|----------|------------
-<img alt="Power Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/power_item.png"/> | Power Item | Used to increase the power of bullets.
+<img alt="Power Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/power_item.png"/> | P点 | 用于提升弹幕的杀伤力
 <img alt="Big Power Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/big_power_item.png"/> | Big Power Item | Used to increase the amount of bullets in a single shot. Also used to create the initial Shot item.
-<img alt="Point Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/point_item.png"/> | Point Item | Used to increase the speed of bullets.
-<img alt="Max Point Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/max_point_item.png"/> | Max Point Item | Has no use currently.
-<img alt="Star Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/star_item.png"/> | Star Item | Used to increase the duration of bullets. Also used to create Bullet Cores.
-<img alt="Faith Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/faith_item.png"/> | Faith Item | Used to repair Shot items.
-<img alt="Time Orb" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/time_orb.png"/> | Time Orb | Permanently halves the cooldown of a shot.
+<img alt="Point Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/point_item.png"/> | 蓝点 | 用于提升弹速
+<img alt="Max Point Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/max_point_item.png"/> | 大型蓝点 | 暂无用途
+<img alt="Star Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/star_item.png"/> | 星点 | 用于增加子弹的持续时间及合成子弹核心
+<img alt="Faith Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/faith_item.png"/> | 信仰点 | 用于修复破损的弹幕
+<img alt="Time Orb" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/time_orb.png"/> | 刻符 | 将弹幕冷却时间永久减半
 
-The first step is to create a Bullet Core. Each bullet type has an equivalent Bullet Core. These can be crafted using Star Items in a regular crafting table.
+第一步是合成一个子弹核心。每种子弹类型都有一个等效的子弹核心。这些可以在工作台中使用星点制作。
 
 !!! note
 
