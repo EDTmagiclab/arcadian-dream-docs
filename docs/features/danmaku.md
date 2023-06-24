@@ -15,10 +15,10 @@
     材料的作用可通过标签进行修改
 
 
-Icon | Material | Description
+图标  |   材料   | 描述
 -----|----------|------------
 <img alt="Power Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/power_item.png"/> | P点 | 用于提升弹幕的杀伤力
-<img alt="Big Power Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/big_power_item.png"/> | Big Power Item | Used to increase the amount of bullets in a single shot. Also used to create the initial Shot item.
+<img alt="Big Power Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/big_power_item.png"/> | 大型P点 | 用于增加弹幕数量，也用于合成初始弹幕
 <img alt="Point Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/point_item.png"/> | 蓝点 | 用于提升弹速
 <img alt="Max Point Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/max_point_item.png"/> | 大型蓝点 | 暂无用途
 <img alt="Star Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/star_item.png"/> | 星点 | 用于增加子弹的持续时间及合成子弹核心
@@ -27,20 +27,20 @@ Icon | Material | Description
 
 第一步是合成一个子弹核心。每种子弹类型都有一个等效的子弹核心。这些可以在工作台中使用星点制作。
 
-!!! note
+!!! 注意
 
-    Each bullet type has its own base and max stats.
+    每种子弹类型都有自己的基础和最大属性。
 
-Icon | Bullet Type | Notes
+图标 | 子弹类型 | 注释
 -----|-------------|-----------
-![Circle](../images/circle_shot.png) | Circle |
-![Bubble](../images/bubble_shot.png) | Bubble | Has a quite large hitbox.
-![Amulet](../images/amulet_shot.png) | Amulet | Deals more damage to undead mobs.
-![Star](../images/star_shot.png) | Star | Ignores armor.
-![Kunai](../images/kunai_shot.png) | Kunai | Pierces through enemies.
-![Pellet](../images/pellet_shot.png) | Pellet | Has high max density.
+![Circle](../images/circle_shot.png) | 小玉 |
+![Bubble](../images/bubble_shot.png) | 大玉 | 碰撞箱较大
+![Amulet](../images/amulet_shot.png) | 札弹 | 对亡灵生物造成更高的伤害
+![Star](../images/star_shot.png) | 星弹 | 无视护甲
+![Kunai](../images/kunai_shot.png) | 苦无 | 刺穿敌人
+![Pellet](../images/pellet_shot.png) | 点弹 | 密度极高
 
-To turn a core into a usable Shot, you will need a Danmaku Crafting Table.
+要将子弹核心变成可用的子弹，您需要一个弹幕工作台
 
 ## Danmaku Crafting Table
 
