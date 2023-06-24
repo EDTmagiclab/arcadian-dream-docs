@@ -1,12 +1,12 @@
-# Ritual Crafting
+# 仪式合成
 
-[Advancement Trigger](../advancement_triggers.md)
+[高级触发器](../advancement_triggers.md)
 
-Triggers when a player successfully crafts an item using a Ritual Shrine. Does not support conditions.
+玩家成功使用仪式合成即触发，不支持条件
 
 ID: `arcadiandream:ritual_crafting`
 
-### Example
+### 示例
 
 ```json
 "criteria": {
@@ -16,4 +16,4 @@ ID: `arcadiandream:ritual_crafting`
 }
 ```
 
-This advancement criterion is met when a player crafts an item using a Ritual Shrine.
+玩家成功使用仪式合成，即触发此触发器

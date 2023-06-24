@@ -42,67 +42,67 @@
 
 要将子弹核心变成可用的子弹，您需要一个弹幕工作台
 
-## Danmaku Crafting Table
+## 弹幕工作台
 
-The Danmaku Crafting Table is a block that allows you to create, repair and modify Shot items.
+弹幕工作台是用于创造，修改及修复弹幕的方块.
 
-![Danmaku Crafting Table](../images/danmaku_crafting_table.png)
+![弹幕工作台](../images/danmaku_crafting_table.png)
 
-1. Core
-2. Shot
-3. Modifier
-4. Repair
-5. Pattern
-6. Color
-7. Result
+1. 子弹核心
+2. 子弹
+3. 改性材料
+4. 修复材料
+5. 模板
+6. 染料
+7. 输出
 
-Placing a core in the core slot and a Big Power Item in the modifier slot will result in a Shot item. From there you can place it in the shot slot to repair it using Faith Items in a repair slot or modifying it using other materials and slots.
+在子弹核心槽中放置一个子弹核心，在修改器槽中放置一个大P点，将产生一个子弹。从那里，你可以将它放在子弹槽中，使用修复槽中的信仰点进行修复，或者使用其他原料和槽位进行修改。
 
 <figure markdown>
   ![Danmaku Crafting Example](../images/danmaku_crafting_example1.png){width="326"}
-  <figcaption>An example of crafting a shot.</figcaption>
+  <figcaption>示例：制作一个小玉</figcaption>
 </figure>
 
 <figure markdown>
   ![Danmaku Crafting Example](../images/danmaku_crafting_example2.png){width="326"}
-  <figcaption>An example of modifying and repairing a shot.</figcaption>
+  <figcaption>示例：修复和修改弹幕颜色.</figcaption>
 </figure>
 
-## Using Danmaku
+## 使用弹幕
 
-After getting your hands on a Shot, you can use it like any other throwable projectile. Keep in mind that the shot's density affects the durability. Shots cannot break, only become unusable until repaired.
+拿到子弹后，您可以像使用任何其他投掷物一样使用它。请记住，弹幕的密度会影响耐用性。子弹不会彻底损坏，只会在耐久度降到0时无法使用。
 
-There is also a cooldown between shots. Modifying a shot in any way will increase the cooldown, up to a maximum based on the bullet type.
+子弹存在冷却时间。以任何方式修改子弹都会增加冷却时间，根据子弹类型达到最大值。
 
-Bullets deal their own type of damage, so they are not affected by things like Projectile Protection. There is a new enchantment called Danmaku Protection that can be applied to armor to reduce the damage taken from bullets.
+弹幕拥有独立的伤害类型，因此它们不受弹射物保护的影响。有一种叫做弹幕保护的新附魔，可以应用于盔甲以减少弹幕造成的伤害。
 
-## Patterns
+## 模板
 
-By default, shots come with the "spread" pattern. This pattern will fire a single bullet in the direction you are looking. If there are multiple bullets in a single shot, they will have divergence applied to them based on the density.
+默认情况下，镜头带有“扩散”模式。这种模式将朝你正在看的方向发射一颗子弹。如果一次射击中有多个子弹，它们将根据密度扩散。
 
-More patterns can be found around the Minecraft world in the form of templates. Once found, a Pattern Template can be crafted into a Bullet Pattern item, which can then be placed in the pattern slot of a Danmaku Crafting Table.
+在世界中，可以以模板的形式找到更多符卡。找到符卡后，可以将符卡作成子弹模板，然后将其放置在弹幕制作台的图案槽中。
 
-Pattern items can be duplicated using an existing pattern, some materials and a shot.
+可以使用现有图案、一些材料和子弹复制符卡。
 
-Icon | Pattern | Location
+图标 | 形状 | 位置
 -----|---------|---------
-<img alt="Spread Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/spread_pattern.png"/> | Spread | Shipwreck
-<img alt="Ray Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/ray_pattern.png"/> | Ray | Pillager Outpost
-<img alt="Ring Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/ring_pattern.png"/> | Ring | Nether Fortress & Abandoned Shrine
-<img alt="Arc Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/arc_pattern.png"/> | Arc | Ancient City
-<img alt="Double Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/double_pattern.png"/> | Double | Mineshaft
-<img alt="Triple Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/triple_pattern.png"/> | Triple | Stronghold
+<img alt="Spread Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/spread_pattern.png"/> | 扩散 | 沉船
+<img alt="Ray Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/ray_pattern.png"/> | 射线 | 掠夺者前哨站
+<img alt="Ring Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/ring_pattern.png"/> | 环状 | 下界要塞和废弃神社
+<img alt="Arc Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/arc_pattern.png"/> | 弧形 | 远古城市
+<img alt="Double Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/double_pattern.png"/> | 双重 | 矿井
+<img alt="Triple Pattern" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/triple_pattern.png"/> | 三重 | 要塞
 
-## Cancelling Bullets and Extends
+## 消弹与残机
 
-Icon | Item
+图标 | 物品
 -----|-----
-<img alt="Bomb Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/bomb_item.png"/> | Bomb Item
-<img alt="Extend Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/extend_item.png"/> | Extend Item
-<img alt="Life Fragment" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/life_fragment.png"/> | Life Fragment
+<img alt="Bomb Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/bomb_item.png"/> | Bomb
+<img alt="Extend Item" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/extend_item.png"/> | 残机
+<img alt="Life Fragment" width="16" src="https://raw.githubusercontent.com/Maxmani/arcadian-dream/HEAD/src/main/resources/assets/arcadiandream/textures/item/life_fragment.png"/> | 生命碎片
 
-Bullets that are not your own can be cancelled using a Bomb Item. This removes all nearby bullets and gives you some Star Items in return. Bombs are quite uncommon, so use them wisely.
+不属于自己的子弹可以使用bomb取消。这将删除所有附近的子弹，并为您提供一些星点作为回报。bomb很不常见，所以要明智地使用它们。（当然，不要抱b撞——来自译者）
 
-There is also the Extend Item, which acts as an equipable Totem of Undying. It will cancel bullets similar to a Bomb, but won't give you any Star Items. It also grants temporary invulnerability. It is a rare drop from certain mobs.
+本模组还设计了残机物品，它的效果类似不死图腾。它同样具有消弹效果，但不会给你任何星点。它会让你暂时无敌。这是罕见的掉落物。
 
-Extends can be turned into Life Fragments and vice versa.
+残机可以变成生命碎片，反之亦然。

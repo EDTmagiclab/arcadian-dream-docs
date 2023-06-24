@@ -1,12 +1,12 @@
-# Danmaku Modified
+# 弹幕改造
 
 [Advancement Trigger](../advancement_triggers.md)
 
-Triggers when a player modifies a Shot item using a Danmaku Crafting Table. Does not support conditions.
+当玩家使用弹幕工作台修改射击物品时触发。不支持条件。
 
 ID: `arcadiandream:danmaku_modified`
 
-### Example
+### 示例
 
 ```json
 "criteria": {
@@ -16,4 +16,4 @@ ID: `arcadiandream:danmaku_modified`
 }
 ```
 
-This advancement criterion is met when a player modifies a Shot item using a Danmaku Crafting Table.
+当玩家使用弹幕工作台修改射击物品时，即触发。

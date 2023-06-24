@@ -1,23 +1,23 @@
-# Mobs
+# 怪物
 
-Arcadian Dream is going to feature many familiar mobs from the Touhou universe. This page lists all of the mobs that are currently in the mod, as well as their drops and spawn conditions.
+幻想之梦将出现许多来自东方世界观的熟悉的生物。此页面列出了当前在模组中的所有生物，以及它们的掉落物和生成条件。
 
-## Monsters
+## 怪物
 
-**WIP**
+**在制作中**
 
-### Fairies
+### 妖精
 
-Fairies are the most common type of mob in Arcadian Dream. They come in many[^1] different types, and spawn in many different biomes. They are also generally the weakest mobs in the mod, and are easy to defeat.
+妖精是幻想之梦中最常见的怪物类型。它们有许多不同的类型，并在许多不同的生物群系中生成。她们通常也是模组中最弱的生物，很容易被击败。
 
 [^1]: soon™
 
-!!! note "Needs more work"
+!!! note "需要更多工作"
 
-    The formatting could be better. Especially the drops.
-    It will do for now.
+    格式需要改进，尤其是掉落物
+    将于近期完成
 
-Image | Name | Spawn Conditions | Nature | Drops
+图片 | 名称 | 刷新条件 | 友好度 | 掉落物
 ------|------|------------------|--------|------
-<img alt="Fairy" width="150" src="../../images/fairy.png"/> | Fairy | In temperate biomes in the Overworld, during the day. | Neutral (Will defend Sunflower Fairies) | Power Item, Point Item, Star Item, Bomb Item, Extend Item, Music Disc
-<img alt="Sunflower Fairy" width="150" src="../../images/sunflower_fairy.png"/> | Sunflower Fairy | Same as Fairy but more common in Sunflower Plains. | Hostile | Same as Fairy
+<img alt="Fairy" width="150" src="../../images/fairy.png"/> | 妖精 | 白天在主世界的温带生物群系中生成。 | 中立（会保护向日葵妖精） | P点, 蓝点, 星点, Bomb, 残机, 唱片
+<img alt="Sunflower Fairy" width="150" src="../../images/sunflower_fairy.png"/> | 向日葵妖精 | 与妖精相同，但在向日葵花田中刷新几率更高 | 敌对 | 与妖精相同

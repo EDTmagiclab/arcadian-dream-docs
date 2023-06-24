@@ -1,22 +1,22 @@
-# Ritual Crafting
+# 仪式合成
 
-## How it works
+## 它如何工作
 
-Ritual crafting is a way to craft items in-world. It is a bit more complicated than normal crafting, but it allows for more complex recipes.
+仪式制作是一种在多方块结构中合成物品的方式。它比普通的合成要复杂一些，但它允许更复杂的配方。
 
-Ritual crafting is done by placing down a **Ritual Shrine** surrounded by as many **Onbashira** blocks as needed. The Onbashira blocks must be placed in a specific pattern, and the Ritual Shrine must be placed in the center of the pattern.
+仪式制作是通过设置一个祭坛来完成的，神社祭坛周围环绕着尽可能多的御柱。御柱必须以特定方式摆放，而神社祭坛必须放置在图形的中心。
 
 <figure markdown>
   ![Ritual Shrine Setup](../images/ritual_shrine_setup.png){width="600"}
-  <figcaption>Distances of Onbashira in relation to each other and the shrine.</figcaption>
+  <figcaption>御柱彼此之间的距离及御柱与神社祭坛之间的距离.</figcaption>
 </figure>
 
-The outer circle must be placed one block higher than the inner circle. The bottom blocks of the outer circle don't matter.
+外圈必须比内圆高一个方块。外圈的底座并不重要。
 
-Ingredients are placed on the Onbashira, and the recipe is activated by pressing USE on the Ritual Shrine.
+将材料放在御柱上，对神社祭坛按下使用键即可启动合成。
 
-## Onbashira
+## 御柱
 
-Each onbashira can hold one item. Items cannot be placed on an onbashira if the block above it is occupied.
+每个御柱可以容纳一件物品。如果御柱上面的方块不是空气，则无法将物品放置在御柱上。
 
-Onbashira can be created by placing an **Onbashira Pillar** and pressing USE on it with a [lead](https://minecraft.fandom.com/wiki/Lead) and a piece of [paper](https://minecraft.fandom.com/wiki/Paper) in your hands.
+御柱可以通过摆放 **御柱支架** 并对着其使用 [拴绳](https://minecraft.fandom.com/wiki/Lead) 和 拿在手里的[纸](https://minecraft.fandom.com/wiki/Paper) 创建。

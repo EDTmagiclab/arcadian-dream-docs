@@ -1,12 +1,12 @@
-# Advancement Triggers
+# 高级触发器
 
-Arcadian Dream adds a few new advancement triggers to the game.
+幻想之梦为游戏添加了一些高级触发器
 
-#### Basic Triggers
+#### 基础触发器
 
-- [Ritual Crafting](advancement_triggers/ritual_crafting.md)
-- [Danmaku Modified](advancement_triggers/danmaku_modified.md)
+- [仪式合成](advancement_triggers/ritual_crafting.md)
+- [弹幕制作](advancement_triggers/danmaku_modified.md)
 
-#### Triggers with Conditions
+#### 条件触发器
 
-- [Bullets Cancelled](advancement_triggers/bullets_cancelled.md)
+- [消弹](advancement_triggers/bullets_cancelled.md)

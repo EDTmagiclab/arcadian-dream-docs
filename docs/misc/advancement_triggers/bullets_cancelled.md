@@ -1,19 +1,19 @@
-# Bullets Cancelled
+# 消弹
 
-[Advancement Trigger](../advancement_triggers.md)
+[高级触发器](../advancement_triggers.md)
 
-Triggers when a player cancels bullets.
+玩家消弹时触发
 
 ID: `arcadiandream:bullets_cancelled`
 
-### Available extra conditions
+### 可用条件
 
-Condition  | Type | Default | Description
+条件  | 类型 | 默认 | 描述
 -------|------|---------|-------------
-`amount` | Integer Range | *optional* | The number of bullets that must be cancelled.
-`from_extend` | Boolean | *optional*  | Whether the bullets are cancellable with a Bomb or an Extend. Defaults to both.
+`amount` | 整数型 | *optional* | 最低消弹数
+`from_extend` | 布尔型 | *optional*  | 子弹是否可以被bomb或残机消除。默认为两者。
 
-### Example #1
+### 示例 #1
 
 ```json
 "criteria": {
@@ -26,7 +26,7 @@ Condition  | Type | Default | Description
 }
 ```
 
-This advancement criterion is met when a player cancels any number of bullets using a Bomb.
+当玩家使用炸弹取消任意数量的子弹时，就满足了这个触发。
 
 ### Example #2
 
@@ -43,4 +43,4 @@ This advancement criterion is met when a player cancels any number of bullets us
 }
 ```
 
-This advancement criterion is met when a player cancels at least 50 bullets using a Bomb or an Extend.
+当玩家使用炸弹或扩展取消至少 50 发子弹时，即满足此触发。
