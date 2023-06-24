@@ -1,5 +1,5 @@
-site_name: Arcadian Dream Documentation
-site_url: https://arcadian-dream.readthedocs.io
+site_name: 幻想之梦中文文档
+site_url: https://arcadian-dream-cn.readthedocs.io
 nav:
   - Home: index.md
   - Features:
@@ -51,4 +51,4 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
-repo_url: https://github.com/Maxmani/arcadian-dream
+repo_url: https://github.com/EDTmagiclab/arcadian-dream
