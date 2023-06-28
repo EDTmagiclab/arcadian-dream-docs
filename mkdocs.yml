@@ -1,13 +1,17 @@
 site_name: 幻想之梦中文文档
 site_url: https://arcadian-dream-cn.readthedocs.io
 nav:
-  - Home: index.md
-  - Features:
-    - Danmaku: features/danmaku.md
-    - Mobs: features/mobs.md
-    - Ritual Crafting: features/ritual_crafting.md
-  - Miscellaneous:
-    - Advancement Triggers: misc/advancement_triggers.md
+  - 主页: index.md
+  - 功能与特性:
+    - 弹幕: 功能与特性/弹幕.md
+    - 怪物: 功能与特性/怪物.md
+    - 仪式合成: 功能与特性/仪式合成.md
+  - 方块与道具: 
+    - 蓬莱之药: 方块与道具/蓬莱之药.md
+  -结构:
+    -废弃神社: 结构/废弃神社.md  
+  - 开发者:
+    - 高级触发器: misc/高级触发器.md  
 theme:
   name: material
   favicon: images/icon.png
