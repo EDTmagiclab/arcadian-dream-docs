@@ -8,7 +8,9 @@ Arcadian Dream是一款minecraft 模组，此模组及文档仍在开发，并�
 
 在 [Modrinth](https://modrinth.com/mod/arcadian-dream) 或 [CurseForge](https://curseforge.com/minecraft/mc-mods/arcadian-dream) 下载此模组。
 
-一般而言，作者同步汉化会晚于汉化发布时间，你可以在我的 [GitHub](https://github.com/EDTmagiclab/arcadian-dream) 下载汉化先行版
+一般而言，作者同步汉化会晚于汉化发布时间，你可以在我的 [GitHub](https://github.com/EDTmagiclab/arcadian-dream) 下载汉化先行版。
+
+如果你想针对汉化提出建议，请在GitHub提交issues或通过QQ群聊760937257联系我们
 
 ## 基本信息
 
